@@ -1,0 +1,36 @@
+.offers {
+  margin-bottom: 96px;
+
+  .title {
+    margin-bottom: 76px;
+    text-align: center;
+  }
+
+  &__item {
+    &-title {
+      margin-bottom: 8px;
+      font-family: Arial, Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: rgba(81, 1, 166, 1);
+    }
+
+    &-link {
+      text-decoration: none;
+    }
+
+    &-image {
+      margin-bottom: 24px;
+    }
+
+    &-description {
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      color: #000000;
+    }
+  }
+}

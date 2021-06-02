@@ -1,0 +1,22 @@
+.btn {
+  padding: 8px 12px;
+  text-align: center;
+  font-family: Arial, Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 6px;
+
+  &--light {
+    color: rgba(81, 1, 166, 1);
+    background-color: #ffffff;
+  }
+
+  &--dark {
+    color: #FFFFFF;
+    background-color: rgba(81, 1, 166, 1);
+  }
+}

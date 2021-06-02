@@ -1,0 +1,15 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import '../../node_modules/swiper/swiper-bundle.css';
+
+@import "utilities/mixins";
+
+@import "base/fonts";
+@import "base/general";
+
+@import "layout/header";
+@import "layout/banner";
+@import "layout/btn";
+@import "layout/offers";
+@import "layout/tabs";
+@import "layout/feedback";
+@import "layout/footer";
